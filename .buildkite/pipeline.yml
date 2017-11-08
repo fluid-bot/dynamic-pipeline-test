@@ -1,6 +1,6 @@
 steps:
   - block: "Run this CI job"
-    pull_requests: true
+    branch: *:*
   
   - name: "Testing"
     command: "echo Passed"
