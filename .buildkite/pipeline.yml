@@ -1,0 +1,6 @@
+steps:
+  - name: "Testing"
+    command: "echo Passed"
+    agents:
+      queue: "filtered"
+
