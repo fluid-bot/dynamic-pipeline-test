@@ -1,6 +1,6 @@
 steps:
   - block: "Run this CI job"
-    branch: *:*
+    branches: "*:*"
   
   - name: "Testing"
     command: "echo Passed"
